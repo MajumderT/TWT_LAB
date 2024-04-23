@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Lab2Q4</title>
+	</head>
+	<body>
+	<form method="post" action="send.php">
+		<p><strong>What kind of car would you like to buy?</strong></p>
+			<input type="radio" name="car" value="proton" checked>Proton</td>
+			<input type="radio" name="car" value="honda" >Honda</td>
+			<input type="radio" name="car" value="ferrari">Ferrari</td>
+			<input type="radio" name="car" value="ford">Ford</td>
+		<p><strong>What colour do you want in your car?</strong></p>
+			<select name ="Colour">
+			<option  value="white">White</option>
+			<option  value="red">Rad</option>
+			<option  selectedvalue="black">Black</option>
+			<option  value="blue">Blue</option>
+			</select>
+			Other:<input type= "text" size="26" maxlength="256" name="otherColor">
+		<p><strong>Enter other specification of your preferred car:</strong></p>
+		<textarea name="specification" rows="5" cols="42"></textarea>	
+		<p><strong>Tell us how to get touch with you:</strong></p>
+		<table>
+			<tr>
+				<td><b>Name:</b></td>
+				<td><input type="text" size ="35" maxlength= "256" name="Username"></td>
+			</tr>
+			<tr>
+				<td><b>Email:</b></td>
+				<td><input type="text" size ="35" maxlength= "256" name="Useremail"></td>
+			</tr>
+			<tr>
+				<td><b>Telephone No:</b></td>
+				<td><input type="text" size ="35" maxlength= "256" name="Usertelephone"></td>
+			</tr>
+			<tr>
+				<td><b>Fax:</b></td>
+				<td><input type="text" size ="35" maxlength= "256" name="Userfax"></td>
+			</tr>
+		</table>
+		<br>
+		
+			<input type="checkbox" name="ContactRequested" value="ContactRequested">
+			Please contact me  as soon as posiible regarding this matter.
+			
+		<p>
+			<input type="submit" name="submit" value="send">
+			<input type="reset" name="reset" value="Clear" checked></td>
+		</p>
+	</table>
+	</form>
+	</body>
+</html>
