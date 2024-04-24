@@ -1,0 +1,20 @@
+.navigation{
+	margin-left:auto;
+	margin-right:auto;
+	width: 70%;
+	background-color: #022f7d;
+	}
+
+a{
+	color: white;
+	font-family: verdana;
+	text-decoration: none;
+	padding-left: 30px;
+	padding-rigth: 30px;
+	background-color: #022f7d;
+	}
+
+a:hover{
+	color:red;
+	background-color: #336699;
+	}
