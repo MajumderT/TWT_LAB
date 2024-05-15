@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html> 
+	<head> 
+		<title>Current date</title> 
+			<script type="text/javascript"> 
+				function displayDate(){ 
+					var today = new Date();
+					var d = today.getDate();
+					var m = today.getMonth() + 1;
+					var y = today.getFullYear();
+					var result = "Today is " + d + "/" + m + "/" + y;
+					document.bgColor = "lightyellow";
+					document.getElementById('txt').innerHTML = result;
+				} 
+
+			</script> 
+	</head> 
+		<body onload="displayDate()"> 
+			<div id="txt"></div> 
+		</body> 
+</html> 
